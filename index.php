@@ -50,6 +50,8 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 <h4>Message hexus#2444 on discord to join.<h4>
     <div id='clock'></div>
     <br>
+    <link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
 
 
 
