@@ -40,6 +40,7 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Base</title>
+    <link rel="stylesheet" href="styles.css">
     </head>
     <body onload="startTime()">
     <button class="button">Login</button>
@@ -50,22 +51,20 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 <h4>Message hexus#2444 on discord to join.<h4>
     <div id='clock'></div>
     <br>
-    <link rel="stylesheet" href="styles.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
 <?php
