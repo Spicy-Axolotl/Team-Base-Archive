@@ -33,9 +33,15 @@
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
                   $_SESSION['username'] = 'ZTechPro709';
-                  
+                  	# REMEMEBER TO MAKE ALL USERNAMES LOWERCASE
+		       # REMEMEBER TO MAKE ALL USERNAMES LOWERCASE
+		       # REMEMEBER TO MAKE ALL USERNAMES LOWERCASE
+		       # REMEMEBER TO MAKE ALL USERNAMES LOWERCASE
+		       # REMEMEBER TO MAKE ALL USERNAMES LOWERCASE
+		       # REMEMEBER TO MAKE ALL USERNAMES LOWERCASE
+		       
                   echo 'You have entered valid use name and password';
-               }elseif ($_POST['username'] == 'Karim' && 
+               }elseif ($_POST['username'] == 'karim' && 
                   $_POST['password'] == 'Karim'){
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
