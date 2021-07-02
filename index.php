@@ -49,7 +49,8 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 </head>
 
 <body onload="startTime()">
-    <button class="button">Login</button>
+    <a href="login.php"><button class="button">Login</button></a>
+
     <br><br>
     <br>
     <img src="path21383.png" alt="Hacking Empire's Logo">
