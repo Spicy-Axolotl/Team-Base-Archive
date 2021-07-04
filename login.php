@@ -69,7 +69,7 @@
                name = "login">Login</button>
          </form>
 			
-         Click here to clean <a href = "logout.php" tite = "Logout">Session.
+         Click here to clean <button href="logout.php" tite="Logout">Session.</button>
          
       </div> 
       
