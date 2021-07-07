@@ -28,9 +28,6 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 
 
 
-
-
- 
 ?>
 
 <!DOCTYPE html>
@@ -78,6 +75,7 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 </body>
 
 </html>
+
 <?php
 
 ?>
