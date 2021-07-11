@@ -21,9 +21,11 @@ exit();
     <title>Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <?php
-    $css_path = '/styles.css';
+    
 if($_SESSION['username'] == 'Zakariah'){
-   $css_path = '/404.css';
+   $css_path = '/4042.css';
+}else{
+   $css_path = '/styles.css';
 }
     ?>
     <link rel="stylesheet" type="text/css" 
@@ -39,7 +41,7 @@ echo $greet;
 
 
 ?>
-<link rel="stylesheet" href="/404.css">
+
 <div class="moon"></div>
 <div class="moon__crater moon__crater1"></div>
 <div class="moon__crater moon__crater2"></div>
@@ -79,7 +81,16 @@ echo $greet;
     <div class="astronaut__head-visor-flare2"></div>
   </div>
 </div>
-<script src="/4042.js"></script>
+<?php
+    
+if($_SESSION['username'] == 'Zakariah'){
+   $js_path = '/4042.js';
+}else{
+   $js_path = '/script.js';
+}
+    ?>
+<script src="<?php echo $js_path;?>"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
