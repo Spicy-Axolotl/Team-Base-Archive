@@ -18,6 +18,7 @@ exit();
 <html lang="en">
 
 <head>
+   <link rel="stylesheet" href="styles.css">
     <title>Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <?php

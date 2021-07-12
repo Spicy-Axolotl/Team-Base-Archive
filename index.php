@@ -43,9 +43,12 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body onload="startTime()">
+
+  
     <a href="login.php"><button class="button">Login</button></a>
 
     <br><br>
