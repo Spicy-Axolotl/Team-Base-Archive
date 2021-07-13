@@ -55,7 +55,7 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
     <img src="path21383.png" alt="Hacking Empire's Logo">
     <h1 class="test1">Hacking Team Base</h1>
     <h1>Welcome to the Team Base for Hacking Empire.</h1>
-    <h3><b>This is only for dedicated hackers. Started By K, Z and I</b></h3>
+    <h3><b>This is only for dedicated hackers. Started By K, Z</b></h3>
     <h4>Message hexus#2444 on discord to join.<h4>
 
             <div id='clock'></div>
