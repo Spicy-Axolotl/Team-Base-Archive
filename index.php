@@ -29,7 +29,6 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,7 +37,7 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Base</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -55,10 +54,10 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
     <br>
     <img src="path21383.png" alt="Hacking Empire's Logo">
     <h1 class="test1">Hacking Team Base</h1>
-
-    <h1>Welcome to the Team Base for Hacking Empire.</h1>
-    <h3><b>This is only for dedicated hackers. Made By K and Z</b></h3>
+    <h1>Welcome to the Team for Hacking Empire.</h1>
+    <h3><b>This is only for dedicated hackers. Made By K, Z and I</b></h3>
     <h4>Message hexus#2444 on discord to join.<h4>
+
             <div id='clock'></div>
             <br>
 
@@ -74,7 +73,7 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 
 
 
-            <script src="script.js"></script>
+            <script src="js/script.js"></script>
 </body>
 
 </html>

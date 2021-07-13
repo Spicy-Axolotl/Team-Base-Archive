@@ -2,7 +2,7 @@
  
 session_start();
 ?>
-<link rel="stylesheet" href="/404.css">
+<link rel="stylesheet" href="css/404.css">
 <div class="moon"></div>
 <div class="moon__crater moon__crater1"></div>
 <div class="moon__crater moon__crater2"></div>
@@ -49,7 +49,7 @@ session_start();
     <div class="astronaut__head-visor-flare2"></div>
   </div>
 </div>
-<script src="/404.js"></script>
+<script src="js/404.js"></script>
 <?php
 
 ?>

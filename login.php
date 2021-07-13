@@ -17,7 +17,7 @@
 <head>
     <title>Login</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 

@@ -1,7 +1,4 @@
-<?php
-            $msg = '';
-            
-            if (isset($_POST['login']) && !empty($_POST['username']) 
+) 
                && !empty($_POST['password'])) {
 				$_POST['username'] = strtolower($_POST['username']);
            
@@ -20,7 +17,7 @@
                }elseif ($_POST['username'] == 'karim' && 
                base64_encode($_POST['password'])=='S2FyaW0wMQ=='){
                   $_SESSION['valid'] = true;
-                  $_SESSION['timeout'] = time();
+                  $_SES= time();
                   $_SESSION['username'] = 'Karim';
                   $_SESSION['screenname'] = 'KarimzAHacker';
                   $_SESSION['loggedin'] = true;
