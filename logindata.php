@@ -5,7 +5,7 @@
                && !empty($_POST['password'])) {
 				$_POST['username'] = strtolower($_POST['username']);
            
-               if ($_POST['username'] == 'ztechpro7O9' && 
+               if ($_POST['username'] == 'ztechpro709' && 
                base64_encode($_POST['password'])=='bWljcm9iYW5kNzA5') {
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();

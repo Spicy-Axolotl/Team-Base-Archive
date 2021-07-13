@@ -25,6 +25,8 @@ exit();
     
 if($_SESSION['name'] == 'Zakariah'){
    $css_path = 'css/4042.css';
+}elseif($_SESSION['name'] == 'Ismail'){
+   $css_path = 'css/ismail.css';
 }else{
    $css_path = 'css/styles.css';
 }
