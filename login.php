@@ -22,7 +22,7 @@
 </head>
 
 <body>
-
+<a href="index.php"><button class="button">Home</button></a>
     <br>
     <br>
     <br>

