@@ -18,14 +18,15 @@ exit();
 <html lang="en">
 
 <head>
+   
     <title>Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <?php
     
 if($_SESSION['username'] == 'Zakariah'){
-   $css_path = '/4042.css';
+   $css_path = 'css/4042.css';
 }else{
-   $css_path = '/styles.css';
+   $css_path = 'css/styles.css';
 }
     ?>
     <link rel="stylesheet" type="text/css" 
@@ -84,13 +85,13 @@ echo $greet;
 <?php
     
 if($_SESSION['username'] == 'Zakariah'){
-   $js_path = '/4042.js';
+   $js_path = 'js/4042.js';
 }else{
-   $js_path = '/script.js';
+   $js_path = 'js/script.js';
 }
     ?>
 <script src="<?php echo $js_path;?>"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
