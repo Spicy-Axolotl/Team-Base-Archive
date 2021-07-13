@@ -2,7 +2,7 @@
    ob_start();
    session_start();
    if(isset($_SESSION['loggedin'])){
-      $greet = '<p id="greet">Hello '.$_SESSION['username'].'!</p>';
+      $greet = '<p id="greet">Hello '.$_SESSION['name'].'!</p>';
 
    }else{
       header("Location: /login.php");
@@ -23,7 +23,7 @@ exit();
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <?php
     
-if($_SESSION['username'] == 'Zakariah'){
+if($_SESSION['name'] == 'Zakariah'){
    $css_path = 'css/4042.css';
 }else{
    $css_path = 'css/styles.css';
@@ -84,7 +84,7 @@ echo $greet;
 </div>
 <?php
     
-if($_SESSION['username'] == 'Zakariah'){
+if($_SESSION['name'] == 'Zakariah'){
    $js_path = 'js/4042.js';
 }else{
    $js_path = 'js/script.js';
