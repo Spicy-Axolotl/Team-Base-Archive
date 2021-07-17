@@ -46,7 +46,7 @@
             <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
                name = "login">Login</button>
          </form>
-
+         <p>Pin</p> <input class='center'type="number" onkeyup="testIt(this.value);" />
 
 
     </div>
