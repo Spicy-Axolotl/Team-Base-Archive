@@ -5,5 +5,5 @@
    unset($_SESSION["loggedin"]);
    
    echo 'You have cleaned session';
-   header('Refresh: 1; URL = login.php');
+   header('Refresh: 1; URL = login2.php');
 ?>

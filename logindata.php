@@ -13,7 +13,7 @@
                   $_SESSION['screenname'] = 'ZTechPro709';
                   $_SESSION['loggedin'] = true;
 		       #base64_encode($_POST['password'])==''
-                  echo "Hello - ".$_SESSION['name']."!";
+                  $msg = 'Hello - '.$_SESSION['name'].'!';
                   
                   header('Refresh: 1; URL = homepage.php');
                
@@ -24,7 +24,7 @@
                   $_SESSION['name'] = 'Karim';
                   $_SESSION['screenname'] = 'KarimzAHacker';
                   $_SESSION['loggedin'] = true;
-                  echo "Hello - ".$_SESSION['name']."!";
+                  $msg = 'Hello - '.$_SESSION['name'].'!';
                   header('Refresh: 1; URL = homepage.php');
                }elseif ($_POST['username'] == 'stechpro' && 
                base64_encode($_POST['password'])=='c2lw'){
@@ -33,7 +33,7 @@
                   $_SESSION['name'] = 'Sulayman';
                   $_SESSION['screenname'] = 'STechPro709';
                   $_SESSION['loggedin'] = true;
-                  echo "Hello - ".$_SESSION['name']."!";
+                  $msg = 'Hello - '.$_SESSION['name'].'!';
                   header('Refresh: 1; URL = homepage.php');
                }elseif ($_POST['username'] == 'hackeriii' && 
                base64_encode($_POST['password'])=='VEVP'){
@@ -42,7 +42,7 @@
                   $_SESSION['name'] = 'Ismail';
                   $_SESSION['screenname'] = 'HackerPro';
                   $_SESSION['loggedin'] = true;
-                  echo "Hello - ".$_SESSION['name']."!";
+                  $msg = 'Hello - '.$_SESSION['name'].'!';
                   header('Refresh: 1; URL = homepage.php');
                }else {
                   $msg = 'Wrong username or password';
