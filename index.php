@@ -49,7 +49,7 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 <body onload="startTime()">
 
   
-    <a href="login.php"><button class="button">Login</button></a>
+    <a href="login2.php"><button class="button">Login</button></a>
 
     <br><br>
     <br>
