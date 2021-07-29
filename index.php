@@ -75,6 +75,18 @@ file_put_contents('visitors.log', $ip_address . PHP_EOL, FILE_APPEND);
 
 
             <script src="js/script.js"></script>
+     <script>
+  function initFingerprintJS() {
+    FingerprintJS.load({token: '9QiujfwejzAyyA7U9tdN'})
+      .then(fp => fp.get())
+      .then(result => console.log(result.visitorId));
+  }
+</script>
+<script
+  async
+  src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js"
+  onload="initFingerprintJS()"
+></script>
 </body>
 
 </html>
